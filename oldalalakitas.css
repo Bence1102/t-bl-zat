@@ -1,0 +1,21 @@
+/*Minden html oldalra rákerül
+itt alakítsd ki  az oldalszerkezetet - a táblán látható minta alapján
+Reszponzív - 700px kerüljenek egymás alá a nav, article, aside, és a 
+menüpontok egymás mellé
+
+Betűtípusok, menü kialakítása::after
+minden táblázatnak saját css-lesz!!!
+*/
+
+
+
+
+
+
+@media screen and (max-width:500px){
+    nav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    }
+}

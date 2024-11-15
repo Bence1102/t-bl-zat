@@ -1,0 +1,76 @@
+
+table, td, th {
+    border-bottom: 1px solid gray;
+    border-left: none;
+    border-right: none;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    max-width: 1000px;
+}
+
+a:hover{
+    background-color: #d51212;
+}
+thead tr {
+    background-color: white;
+    
+}
+tbody tr{
+    border: none;
+}
+
+th {
+    color: black;
+    
+    
+}
+tbody tr:nth-child(odd){
+    background-color: rgb(159, 162, 164);
+}
+.responzivetablazat{
+    overflow-x: auto;
+}
+.osszevont{
+    background-color: red;
+     
+}
+article,footer, header{
+    text-align: center;
+}
+nav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+}
+
+@media screen and (max-width:700px){
+    nav ul{
+        grid-template-columns: 1fr;
+    }
+    main{
+        grid-template-areas: 
+        "h "
+        "n "
+        "as"
+        "a"
+        "f"
+    ;
+    }
+    article {
+            grid-template-columns: repeat(2, 1fr); 
+    }
+    nav ul {
+            grid-template-columns: 1fr; 
+    }
+    aside, footer {
+            text-align: center; 
+    } 
+}

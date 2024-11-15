@@ -1,0 +1,43 @@
+
+table, td, th {
+    border: 1px solid gray;
+    border-left: none;
+    border-right: none;
+    
+    
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    max-width: 700px;
+}
+
+
+thead tr {
+    background-color: white;
+    
+}
+tbody tr{
+    border: none;
+}
+
+th {
+    color: black;
+    
+    
+}
+tbody tr:nth-child(odd){
+    background-color: rgb(159, 162, 164);
+}
+.responzivetablazat{
+    overflow-x: scroll;
+}
+.osszevont{
+    background-color: red;
+     
+}
+article{
+    text-align: center;
+}
